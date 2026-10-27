@@ -1,0 +1,16 @@
+# Secrets / tokens — never commit these
+part-b-keycloak/.env
+**/sslkeys.log
+**/*.pcap
+**/*.pcapng
+**/client_secret*
+**/*token*.json
+**/*.jwt
+
+# Python
+part-c-jwt/venv/
+__pycache__/
+*.pyc
+
+# OS cruft
+.DS_Store
